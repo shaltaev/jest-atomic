@@ -20,6 +20,22 @@ yarn add -D jest-atomic jest @types/jest ts-jest
 
 ### Usage
 
+#### Modify jest config
+
+add transformIgnorePatterns
+
+```js
+{
+  transformIgnorePatterns: ["<rootDir>/node_modules/(?!(jest-atomic)/)"];
+}
+```
+
+or
+
+```json (package.json -> jest config)
+  "transformIgnorePatterns": ["<rootDir>/node_modules/(?!(jest-atomic)/)"];
+```
+
 #### into your app/lib
 
 ```ts
