@@ -1,0 +1,20 @@
+{
+  "name": "jest-atomic",
+  "version": "0.0.1",
+  "description": "This project support me to contain my another js/ts projects in consistent way with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaltaev/jest-atomic.git"
+  },
+  "keywords": [],
+  "author": "shaltaev <shaltaev.gleb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaltaev/jest-atomic/issues"
+  },
+  "homepage": "https://github.com/shaltaev/jest-atomic#readme"
+}
