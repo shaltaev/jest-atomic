@@ -1,6 +1,6 @@
 {
   "name": "jest-atomic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This project support me to contain my another js/ts projects in consistent way with TDD",
   "main": "./src/index.ts",
   "types": "./types/index.d.ts",
