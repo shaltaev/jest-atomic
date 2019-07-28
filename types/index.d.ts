@@ -1,1 +1,2 @@
-export { AtomicTestRegistry, iterate } from "./AtomicTestRegistry";
+import { AtomicTestRegistry, iterate } from "./AtomicTestRegistry";
+export { AtomicTestRegistry, iterate };
