@@ -1,11 +1,12 @@
 {
   "name": "jest-atomic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project support me to contain my another js/ts projects in consistent way with TDD",
   "main": "./src/index.ts",
   "types": "./types/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "demo": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/shaltaev/jest-atomic#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   }
